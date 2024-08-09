@@ -242,7 +242,6 @@ h4::before{
 .background_image img{
     position: absolute;
     bottom: 0;
-    animation: bgimg 2s linear alternate infinite;
 }
 
 /* =================== Background Image Css Part End =================== */

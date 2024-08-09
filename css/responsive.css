@@ -1,10 +1,12 @@
-@media (max-width: 575px) {
+/* =================== Extra Small Responsive Css Part Start =================== */
 
-    .container{
+@media (max-width: 575.98px) {
+
+    .container {
         width: 100%;
     }
 
-    #navbar{
+    #navbar {
         margin-top: 45px;
     }
 
@@ -20,12 +22,116 @@
         opacity: 0.1;
     }
 
-    #sign_account{
+    #sign_account {
         width: 100%;
     }
 
-    #sign_account .container{
+    #sign_account .container {
         justify-content: center;
+        margin-top: 90px;
+    }
+}
+
+/* =================== Extra Small Responsive Css Part End =================== */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* =================== Small Responsive Css Part Start =================== */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .container {
+        width: 100%;
+    }
+
+    #navbar{
+        padding-left: 40px;
+    }
+
+    .background_image img {
+        top: 100px;
+        left: -80px;
+        opacity: 0.1;
+    }
+
+    #sign_account .container {
+        justify-content: center;
+        margin-top: 90px;
+    }
+}
+
+/* =================== Small Responsive Css Part End =================== */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* =================== Medium Responsive Css Part Start =================== */
+
+@media(min-width:768px) and (max-width: 991.98px) {
+
+    .container {
+        width: 100%;
+    }
+
+    #navbar{
+        padding-left: 40px;
+    }
+
+    .background_image img {
+        top: 0;
+        left: -80px;
+        opacity: 0.1;
+    }
+
+    #sign_account .container {
+        justify-content: center;
+        margin-top: 90px;
+    }
+}
+
+/* =================== Medium Responsive Css Part End =================== */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* =================== Large Responsive Css Part Start =================== */
+
+@media(min-width: 992px) and (max-width: 1199.98px) {
+
+    .container {
+        width: 100%;
+    }
+
+    #navbar{
+        padding-left: 40px;
+    }
+
+    .background_image img {
+        width: 500px;
+    }
+
+    #sign_account .container {
+        padding-right: 100px;
+        margin-top: 90px;
+    }
+}
+
+/* =================== Large Responsive Css Part End =================== */
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* =================== Extra Large Responsive Css Part Start =================== */
+
+@media(min-width: 1200px) and (max-width: 1399.98px) {
+
+    .container {
+        width: 100%;
+    }
+
+    #navbar{
+        padding-left: 40px;
+    }
+
+    #sign_account .container {
+        padding-right: 100px;
         margin-top: 90px;
     }
 }
